@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths: ['modal/**', 'pyproject.toml', 'poetry.lock']
+  workflow_dispatch:
 
 jobs:
   release:

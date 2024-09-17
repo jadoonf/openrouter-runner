@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openrouter-runner-modal"
-version = "0.1.0"
+version = "0.1.0-test"
 description = "OpenRouter runner on Modal backend"
 authors = ["OpenRouter <support@openrouter.ai>"]
 readme = "README.md"

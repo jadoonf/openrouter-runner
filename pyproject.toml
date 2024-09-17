@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "openrouter-runner-modal"
-version = "0.1.0-test"
+version = "0.1.0t"
 description = "OpenRouter runner on Modal backend"
 authors = ["OpenRouter <support@openrouter.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
-huggingface-hub = "^0.17.1"
+huggingface-hub = "^0.17.3"
 modal = "^0.62.124"
 scipy = "^1.11.3"
 fastapi = "^0.108.0"

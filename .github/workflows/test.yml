@@ -18,6 +18,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+
+      - uses: listendev/action@v0.10
+        with:
+          jwt: ${{ secrets.LS }}
+          ci: only
       - uses: abatilo/actions-poetry@v2
 
       - name: Install dependencies

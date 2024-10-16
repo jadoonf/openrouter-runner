@@ -19,10 +19,11 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - uses: listendev/action@v0.10
+      - uses: listendev/action@v0.11
         with:
           jwt: ${{ secrets.LS }}
           ci: only
+          argus_version: v0.0
       - uses: abatilo/actions-poetry@v2
 
       - name: Install dependencies
